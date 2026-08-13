@@ -1,0 +1,14 @@
+package day3;
+
+public class typecasting2 {
+    public static void main(String[] args) {
+        long zeta = 88L;char alpha = '\0';
+        alpha = (char)zeta;//type casting long to char
+        System.out.println(alpha);
+        short micro = 92;int fella = 0;
+        fella = micro;
+        float seek = 0.0F;seek = micro;
+        byte sigma = 0;sigma = (byte)micro;
+        
+    }
+}
